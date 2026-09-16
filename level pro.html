@@ -88,24 +88,108 @@
             </tr>
         </table>
 <!-- colspan is used to merge the cells in the table. here we have merged 3 cells in the first row of the table. we can also use rowspan to merge the cells vertically. -->
+<hr>
+
+<form>
+    <action="/action_page.php">
+        <input type="text" placeholder="enter your name"><br><br>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password"><br>
+        <!--so to make a login form we use form tag.and action attribute is used to specify the URL where the form data should be submitted.input is used to take input from the user-->
+
+
+        <input type="radio" value="male" name="gender">male
+        <input type="radio"value="female"name="gender">female<br><br>
+        <!-- radio button is used to select one option from the given options. here we have given two options male and female. we can also use checkbox to select multiple options.so adding name thing makes the user select only one option.if u dont add tht user can select multiple options. -->
+
+
+<label for="101">
+        <input type="radio" value="male" name="gender" id="101">male</label>
+<label for="102">
+        <input type="radio"value="female"name="gender" id="102">female</label><br><br>
+     <!--so whos having eye sight probelm now its not necessary to click on the circle only,instead even if they just click male or female it will select the corresponding option.this doesnt work when did before ,check it.-->
+
+
+
+     <div id="1"> class =grp 1</div>
+     <div id="2"> class =grp 1</div>
+ <!--so its like had grps in schools .to make thm sepaerate n stuff this is used-->
+
+
+
+
+
+ <h3>select class</h3>
+<label for="math" >
+    
+    <input type="checkbox" value="math" name="subject" id="101">math</label>
+</label>
+<label for="physics" >
+    
+    <input type="checkbox" value="physics" name="subject" id="102">physics</label>
+</label>
+<label for="chemistry" >
+    
+    <input type="checkbox" value="chemistry" name="subject" id="103">chemistry</label>
+</label>
+<!-- checkbox is used to select multiple options from the given options. here we have given three options math, physics and chemistry. we can also use radio button to select one option or multiple but this is also same but diff method ths all -->
+
+
+
+
+
+<br><br>
+<select name="city">
+    <option value="delhi">delhi</option>
+    <option value="mumbai">mumbai</option>
+    <option value="kolkata">kolkata</option>
+    <option value="chennai">chennai</option>
+    <option value="bangalore">bangalore</option>
+</select>
+<!-- select is used to create a dropdown list. here we have given five options delhi, mumbai, kolkata, chennai and bangalore. we can also use option tag to create options in the dropdown list. -->
 
 
 
 
 
 
+<br><br>
+
+
+<textarea name="feedback" id="101"rows="8" cols="50" placeholder="enter your feedback"></textarea><br><br>
+
+<!-- textarea is used to take multi line input from the user. here we have given rows and cols attribute to specify the number of rows and columns in the textarea. we can also use placeholder attribute to give a hint to the user about what to enter in the textarea. -->
+
+<input type="submit" value="submit">
+<!-- submit button is used to submit the form data to the server.-->
+    </action>
+</form>
 
 
 
 
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3ahRz3K6Qv4?si=Qx3qoEbqXHU5P3P5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- iframe is used to embed another webpage or video in the current webpage. here we have embedded a youtube video in the current webpage. we can also use src attribute to specify the URL of the webpage or video to be embedded. u cant do this to google typa website cuz thers is protected so yeh-->
+
+
+
+<iframe src="https://www.wikipedia.org/"></iframe>
+
+
+
+<video src="https://www.w3schools.com/html/mov_bbb.mp4" width="320" height="240" controls loop></video>
+
+<video src="" width="320" height="240" controls autoplay></video>
+<!-- video is used to embed a video in the current webpage. here we have embedded a video in the current webpage. we can also use src attribute to specify the URL of the video to be embedded. we can also use controls attribute to give the user control over the video playback. adding loop attribute will make the video play in a loop .autoplay makes the video play automatically -->
 
 
 
 
 
 
-    </main>
+</main>
 </body>
 </html>
